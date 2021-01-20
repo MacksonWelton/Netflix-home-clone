@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css">
+
+  <!--responsividade-->
+  <link rel="stylesheet" href="style/responsive.css">
+
+  <!--owl css-->
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+  <title>NETFLIX CLONE</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a class="logo" href="/"><h2>NETFLIX</h2></a>
+      <nav>
+        <a href="/index.html">Início</a>
+        <a href="/#filmes">Filmes</a>
+        <a href="/#series">Séries</a>
+        <a href="/#documentarios">Documentários</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="filme-principal">
+      <div class="container">
+        <h3 class="titulo">HOUSE OF CARDS</h3>
+        <p class="descricao">
+          Um político inescrupuloso não mede esforços para conquistar
+          o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.
+        </p>
+        <div class="botoes">
+          <button role="button" class="botao">
+            <i class="fas fa-play"></i>
+            ASSISTIR AGORA
+          </button>
+          <button role="button" class="botao">
+            <i class="fas fa-info-circle"></i>
+            MAIS INFORMAÇÕES
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="carrosel-filmes">
+    <div class="titulo-carrosel" id="filmes">
+      <h3>Filmes</h3>
+    </div>
+    <div class="owl-carousel owl-theme filmes">
+    </div>
+
+    <div class="titulo-carrosel" id="series">
+      <h3>Séries</h3>
+    </div>
+    <div class="owl-carousel owl-theme series">
+    </div>
+
+    <div class="titulo-carrosel" id="documentarios">
+      <h3>Documentarios</h3>
+    </div>
+    <div class="owl-carousel owl-theme documentarios">
+  </div>
+
+  <script src="https://kit.fontawesome.com/ee7ff5776a.js"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/setup.js"></script>
+
+</body>
+
+</html>
